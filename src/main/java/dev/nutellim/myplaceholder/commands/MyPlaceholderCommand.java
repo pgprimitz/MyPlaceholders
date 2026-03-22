@@ -46,9 +46,9 @@ public class MyPlaceholderCommand implements CommandExecutor, TabCompleter {
         this.plugin = plugin;
         this.placeholderController = plugin.getPlaceholderController();
         this.subCommands = MapUtil.ofOrderMap(
-                MapUtil.entry("config",   new MyPlaceholderConfigCommand(plugin)),
-                MapUtil.entry("reload",   new MyPlaceholderReloadCommand(plugin)),
-                MapUtil.entry("parse",    new MyPlaceholderParseCommand(plugin)),
+                MapUtil.entry("config", new MyPlaceholderConfigCommand(plugin)),
+                MapUtil.entry("reload", new MyPlaceholderReloadCommand(plugin)),
+                MapUtil.entry("parse", new MyPlaceholderParseCommand(plugin)),
                 MapUtil.entry("errorlog", new MyPlaceholderErrorLogCommand(plugin)),
                 MapUtil.entry("folder", new MyPlaceholderFolderCommand(plugin))
         );

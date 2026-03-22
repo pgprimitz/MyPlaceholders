@@ -29,6 +29,11 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+        <!-- bStats 21/03/2026 -->
+        <repository>
+            <id>bstats-repo</id>
+            <url>https://repo.bstats.org/repository/maven-public/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -44,7 +49,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.26</version>
+            <version>1.18.34</version>
             <scope>provided</scope>
         </dependency>
 
@@ -77,6 +82,14 @@
             <artifactId>VaultAPI</artifactId>
             <version>1.7.1</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- bStats -->
+        <dependency>
+            <groupId>org.bstats</groupId>
+            <artifactId>bstats-bukkit</artifactId>
+            <version>3.0.2</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -123,6 +136,11 @@
                         <relocation>
                             <pattern>net.kyori</pattern>
                             <shadedPattern>dev.nutellim.myplaceholder.shade.kyori</shadedPattern>
+                        </relocation>
+                        <!-- bStats 21/03/2026 -->
+                        <relocation>
+                            <pattern>org.bstats</pattern>
+                            <shadedPattern>dev.nutellim.myplaceholder.shade.bstats</shadedPattern>
                         </relocation>
                     </relocations>
                     <filters>

@@ -15,6 +15,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.Objects;
 import java.util.Random;
 
+import org.bstats.bukkit.Metrics;
+
 @Getter
 public class MyPlaceholder extends JavaPlugin {
 
@@ -44,7 +46,12 @@ public class MyPlaceholder extends JavaPlugin {
         Objects.requireNonNull(this.getCommand("myplaceholder")).setTabCompleter(cmd);
 
         PlaceholderAPIHook.initialize(this);
+
+        // bStats 21/03/2026
+        int pluginId = 30356;
+        Metrics metrics = new Metrics(this, pluginId);
     }
+
 
     @Override
     public void onDisable() {
