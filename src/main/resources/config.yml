@@ -3,7 +3,7 @@
 # ╚══════════════════════════════════════════════════════════╝
 
 # ── General ───────────────────────────────────────────────────────
-version: "1.0.0"
+version: "1.0.1"
 
 # Language file to use (must exist in lang/ folder)
 # Available: en_US, es_ES

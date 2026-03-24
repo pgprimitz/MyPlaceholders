@@ -13,7 +13,7 @@ command-messages:
   parse-usage: "&#FF3D00Usage: /mp parse <player> <placeholder>"
   parse-player-not-found: "&#FF3D00Player &f%player% &#FF3D00not found."
   parse-result: "&#7CFC00Result for &f%placeholder%&#7CFC00:"
-  error-log-header: "&#FF3D00&l[MyPlaceholder] Errors found on startup:"
+  error-log-header: "&#FF3D00&l[MyPlaceholder]&r &#FF3D00Errors found on startup:"
   error-duplicate: "&#FF5500  ● Duplicate placeholder ID: &f%id% &#FF5500(found in &f%file1% &#FF5500and &f%file2%&#FF5500)"
   error-invalid: "&#FF5500  ● Invalid placeholder &f%id% &#FF5500in &f%file%&#FF5500: %reason%"
   error-none: "&#7CFC00No errors found in placeholder files."

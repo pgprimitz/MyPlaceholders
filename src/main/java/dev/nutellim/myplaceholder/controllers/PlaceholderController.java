@@ -26,6 +26,8 @@ public class PlaceholderController {
 
     private final Map<String, String> seenIds = new HashMap<>();
     private final List<String> errorLog = new ArrayList<>();
+    private long lastNotifyTime = 0;
+    private static final long NOTIFY_COOLDOWN_MS = 2000;
 
     public PlaceholderController(MyPlaceholder plugin) {
         this.plugin = plugin;
@@ -175,6 +177,10 @@ public class PlaceholderController {
 
     private void notifyAdminsOfErrors() {
         if (errorLog.isEmpty()) return;
+
+        long now = System.currentTimeMillis();
+        if (now - lastNotifyTime < NOTIFY_COOLDOWN_MS) return;
+        lastNotifyTime = now;
 
         Bukkit.getScheduler().runTask(plugin, () -> {
             String prefix = plugin.getLang().getPrefix();
