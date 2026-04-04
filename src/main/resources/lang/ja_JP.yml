@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - 言語: 日本語                  ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00コマンド &f%command% &#FF3D00が見つかりません。"
+  no-permission: "&#FF3D00このコマンドを実行する権限がありません。"
+  reload: "&#7CFC00プラグインが正常に再読み込みされました。"
+  config-set: "&#7CFC00プレースホルダー &f%placeholder% &#7CFC00を &f%value% に変更しました。"
+  config-locked: "&#FF3D00プレースホルダー &f%placeholder% &#FF3D00はロックされており、編集できません。"
+  parse-usage: "&#FF3D00使用方法: /mp parse <プレイヤー> <placeholder>"
+  parse-player-not-found: "&#FF3D00プレイヤー &f%player% &#FF3D00が見つかりません。"
+  parse-result: "&#7CFC00&f%placeholder%&#7CFC00 の結果:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00起動時のエラー:"
+  error-duplicate: "&#FF5500  ● 重複するID: &f%id% &#FF5500(&f%file1% &#FF5500と &f%file2%&#FF5500 で発見)"
+  error-invalid: "&#FF5500  ● 無効なプレースホルダー &f%id% &#FF5500(&f%file%&#FF5500): %reason%"
+  error-none: "&#7CFC00エラーは見つかりませんでした。"

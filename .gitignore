@@ -1,15 +1,16 @@
-# Ignorar carpetas de configuración de IntelliJ
+# IntelliJ IDEA
 .idea/
 *.iml
 
-# Ignorar TODA la carpeta target (incluyendo el jar)
-# Es mejor generarlo siempre de cero
+# Build output (generated when compiling)
 target/
-/target/
 
-# Ignorar archivos temporales de Maven
+# Maven reduced POM (auto-generated, not needed)
 dependency-reduced-pom.xml
 
-# OCULTAR el código Java pero dejar Resources
-# (Aunque lo normal es subir el código, si quieres ocultarlo esta es la ruta)
-# src/main/java
+# Only upload:
+# - src/main (source code + resources)
+# - pom.xml
+# - README.md
+# - LICENSE
+# - .gitignore

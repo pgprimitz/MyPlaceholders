@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - ภาษา: ไทย                   ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00คำสั่ง &f%command% &#FF3D00ไม่พบ"
+  no-permission: "&#FF3D00คุณไม่มีสิทธิ์ในการใช้งานคำสั่งนี้"
+  reload: "&#7CFC00โหลดปลั๊กอินใหม่เรียบร้อยแล้ว"
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00ถูกเปลี่ยนเป็น &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00ถูกล็อกและไม่สามารถแก้ไขได้"
+  parse-usage: "&#FF3D00การใช้งาน: /mp parse <ผู้เล่น> <placeholder>"
+  parse-player-not-found: "&#FF3D00ไม่พบผู้เล่น &f%player%"
+  parse-result: "&#7CFC00ผลลัพธ์สำหรับ &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00ข้อผิดพลาดเมื่อเริ่มต้น:"
+  error-duplicate: "&#FF5500  ● ID ซ้ำ: &f%id% &#FF5500(พบใน &f%file1% &#FF5500และ &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Placeholder ไม่ถูกต้อง &f%id% &#FF5500ใน &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00ไม่พบข้อผิดพลาด"

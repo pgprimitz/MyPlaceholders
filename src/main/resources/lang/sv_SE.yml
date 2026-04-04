@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Språk: Svenska              ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Kommando &f%command% &#FF3D00hittades inte."
+  no-permission: "&#FF3D00Du har inte behörighet att köra detta kommando."
+  reload: "&#7CFC00Plugin har laddats om framgångsrikt."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00har ändrats till &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00är låst och kan inte redigeras."
+  parse-usage: "&#FF3D00Användning: /mp parse <spelare> <placeholder>"
+  parse-player-not-found: "&#FF3D00Spelare &f%player% &#FF3D00hittades inte."
+  parse-result: "&#7CFC00Resultat för &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Fel vid start:"
+  error-duplicate: "&#FF5500  ● Duplikat-ID: &f%id% &#FF5500(hittades i &f%file1% &#FF5500och &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Ogiltig placeholder &f%id% &#FF5500i &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00Inga fel hittades."

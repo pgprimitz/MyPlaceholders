@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Sprog: Dansk                 ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Kommando &f%command% &#FF3D00ikke fundet."
+  no-permission: "&#FF3D00Du har ikke tilladelse til at udføre denne kommando."
+  reload: "&#7CFC00Plugin er genindlæst succesfuldt."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00er ændret til &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00er låst og kan ikke redigeres."
+  parse-usage: "&#FF3D00Brug: /mp parse <spiller> <placeholder>"
+  parse-player-not-found: "&#FF3D00Spiller &f%player% &#FF3D00ikke fundet."
+  parse-result: "&#7CFC00Resultat for &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Fejl ved opstart:"
+  error-duplicate: "&#FF5500  ● Duplikeret ID: &f%id% &#FF5500(fundet i &f%file1% &#FF5500og &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Ugyldig placeholder &f%id% &#FF5500i &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00Ingen fejl fundet."

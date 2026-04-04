@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Bahasa: Indonesia           ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Perintah &f%command% &#FF3D00tidak ditemukan."
+  no-permission: "&#FF3D00Anda tidak memiliki izin untuk menjalankan perintah ini."
+  reload: "&#7CFC00Plugin berhasil dimuat ulang."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00telah diubah menjadi &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00dikunci dan tidak dapat diedit."
+  parse-usage: "&#FF3D00Penggunaan: /mp parse <pemain> <placeholder>"
+  parse-player-not-found: "&#FF3D00Pemain &f%player% &#FF3D00tidak ditemukan."
+  parse-result: "&#7CFC00Hasil untuk &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Error saat memulai:"
+  error-duplicate: "&#FF5500  ● ID duplikat: &f%id% &#FF5500(ditemukan di &f%file1% &#FF5500dan &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Placeholder tidak valid &f%id% &#FF5500di &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00Tidak ada error ditemukan."

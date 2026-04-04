@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Kalba: Lietuvių             ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Komanda &f%command% &#FF3D00nerasta."
+  no-permission: "&#FF3D00Neturite teisės vykdyti šią komandą."
+  reload: "&#7CFC00Įskiepas sėkmingai perkrautas."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00buvo pakeistas į &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00užrakintas ir negali būti redaguojamas."
+  parse-usage: "&#FF3D00Naudojimas: /mp parse <žaidėjas> <placeholder>"
+  parse-player-not-found: "&#FF3D00Žaidėjas &f%player% &#FF3D00nerastas."
+  parse-result: "&#7CFC00Rezultatas &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Klaidos paleidžiant:"
+  error-duplicate: "&#FF5500  ● Pasikartojantis ID: &f%id% &#FF5500(rasta &f%file1% &#FF5500ir &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Neteisingas placeholder &f%id% &#FF5500(&f%file%&#FF5500): %reason%"
+  error-none: "&#7CFC00Klaidų nerasta."

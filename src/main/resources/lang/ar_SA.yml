@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - اللغة: العربية               ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00الأمر &f%command% &#FF3D00غير موجود."
+  no-permission: "&#FF3D00ليس لديك صلاحية لتنفيذ هذا الأمر."
+  reload: "&#7CFC00تم إعادة تحميل البرنامج بنجاح."
+  config-set: "&#7CFC00تم تغيير العنصر &f%placeholder% &#7CFC00إلى &f%value%"
+  config-locked: "&#FF3D00العنصر &f%placeholder% &#FF3D00مقفل ولا يمكن تعديله."
+  parse-usage: "&#FF3D00الاستخدام: /mp parse <اللاعب> <placeholder>"
+  parse-player-not-found: "&#FF3D00اللاعب &f%player% &#FF3D00غير موجود."
+  parse-result: "&#7CFC00النتيجة لـ &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00أخطاء عند البدء:"
+  error-duplicate: "&#FF5500  ● معرف مكرر: &f%id% &#FF5500(تم العثور عليه في &f%file1% &#FF5500و &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● عنصر غير صالح &f%id% &#FF5500في &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00لم يتم العثور على أخطاء."

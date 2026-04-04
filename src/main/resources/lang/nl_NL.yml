@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Taal: Nederlands            ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Opdracht &f%command% &#FF3D00niet gevonden."
+  no-permission: "&#FF3D00Je hebt geen toestemming om dit commando uit te voeren."
+  reload: "&#7CFC00Plugin succesvol herladen."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00is gewijzigd naar &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00is vergrendeld en kan niet worden bewerkt."
+  parse-usage: "&#FF3D00Gebruik: /mp parse <speler> <placeholder>"
+  parse-player-not-found: "&#FF3D00Speler &f%player% &#FF3D00niet gevonden."
+  parse-result: "&#7CFC00Resultaat voor &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Fouten bij opstarten:"
+  error-duplicate: "&#FF5500  ● Dubbele ID: &f%id% &#FF5500(gevonden in &f%file1% &#FF5500en &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Ongeldige placeholder &f%id% &#FF5500in &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00Geen fouten gevonden."

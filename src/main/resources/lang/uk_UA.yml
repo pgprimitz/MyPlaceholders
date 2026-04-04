@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Мова: Українська             ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Команда &f%command% &#FF3D00не знайдена."
+  no-permission: "&#FF3D00У вас немає дозволу на виконання цієї команди."
+  reload: "&#7CFC00Плагін успішно перезавантажено."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00змінено на &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00заблоковано і не може бути відредагований."
+  parse-usage: "&#FF3D00Використання: /mp parse <гравець> <placeholder>"
+  parse-player-not-found: "&#FF3D00Гравець &f%player% &#FF3D00не знайдений."
+  parse-result: "&#7CFC00Результат для &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Помилки при запуску:"
+  error-duplicate: "&#FF5500  ● Дублікат ID: &f%id% &#FF5500(знайдено в &f%file1% &#FF5500та &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Неправильний placeholder &f%id% &#FF5500в &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00Помилок не знайдено."

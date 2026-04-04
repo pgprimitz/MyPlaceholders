@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Limba: Română               ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Comanda &f%command% &#FF3D00nu a fost găsită."
+  no-permission: "&#FF3D00Nu aveți permisiunea de a executa această comandă."
+  reload: "&#7CFC00Pluginul a fost reîncărcat cu succes."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00a fost schimbat în &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00este blocat și nu poate fi editat."
+  parse-usage: "&#FF3D00Utilizare: /mp parse <jucător> <placeholder>"
+  parse-player-not-found: "&#FF3D00Jucătorul &f%player% &#FF3D00nu a fost găsit."
+  parse-result: "&#7CFC00Rezultat pentru &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Erori la pornire:"
+  error-duplicate: "&#FF5500  ● ID duplicat: &f%id% &#FF5500(găsit în &f%file1% &#FF5500și &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Placeholder invalid &f%id% &#FF5500în &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00Nu s-au găsit erori."

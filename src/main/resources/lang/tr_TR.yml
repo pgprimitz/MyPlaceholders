@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Dil: Türkçe                 ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Komut &f%command% &#FF3D00bulunamadı."
+  no-permission: "&#FF3D00Bu komutu çalıştırma yetkiniz yok."
+  reload: "&#7CFC00Eklenti başarıyla yeniden yüklendi."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00şuna değiştirildi: &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00kilitli ve düzenlenemez."
+  parse-usage: "&#FF3D00Kullanım: /mp parse <oyuncu> <placeholder>"
+  parse-player-not-found: "&#FF3D00Oyuncu &f%player% &#FF3D00bulunamadı."
+  parse-result: "&#7CFC00&f%placeholder%&#7CFC00 için sonuç:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Başlangıçta hatalar:"
+  error-duplicate: "&#FF5500  ● Yinelenen ID: &f%id% &#FF5500(&f%file1% &#FF5500ve &f%file2%&#FF5500 dosyalarında bulundu)"
+  error-invalid: "&#FF5500  ● Geçersiz placeholder &f%id% &#FF5500(&f%file%&#FF5500 dosyasında): %reason%"
+  error-none: "&#7CFC00Hata bulunamadı."

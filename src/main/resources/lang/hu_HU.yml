@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Nyelv: Magyar                ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Parancs &f%command% &#FF3D00nem található."
+  no-permission: "&#FF3D00Nincs jogosultságod a parancs végrehajtásához."
+  reload: "&#7CFC00Plugin sikeresen újratöltve."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00megváltoztatva erre: &f%value%"
+  config-locked: "&#FF3D00A &f%placeholder% &#FF3D00placeholder zárolva van és nem szerkeszthető."
+  parse-usage: "&#FF3D00Használat: /mp parse <játékos> <placeholder>"
+  parse-player-not-found: "&#FF3D00Játékos &f%player% &#FF3D00nem található."
+  parse-result: "&#7CFC00Eredmény a &f%placeholder%&#7CFC00 placeholderhez:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Hibák az indításkor:"
+  error-duplicate: "&#FF5500  ● Duplikált ID: &f%id% &#FF5500(megtalálva: &f%file1% &#FF5500és &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Érvénytelen placeholder &f%id% &#FF5500(&f%file%&#FF5500): %reason%"
+  error-none: "&#7CFC00Nem találtam hibákat."

@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.nutellim</groupId>
-    <artifactId>MyPlaceholder</artifactId>
-    <version>1.0.0</version>
+    <artifactId>MyPlaceholders</artifactId>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
-    <name>MyPlaceholder</name>
+    <name>MyPlaceholders</name>
 
     <properties>
         <java.version>1.8</java.version>

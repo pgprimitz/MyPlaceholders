@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - שפה: עברית                    ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00הפקודה &f%command% &#FF3D00לא נמצאה."
+  no-permission: "&#FF3D00אין לך הרשאה להפעיל פקודה זו."
+  reload: "&#7CFC00התוסף נטען מחדש בהצלחה."
+  config-set: "&#7CFC00ה-placeholder &f%placeholder% &#7CFC00שונה ל-&f%value%"
+  config-locked: "&#FF3D00ה-placeholder &f%placeholder% &#FF3D00נעול ואין אפשרות לערוך אותו."
+  parse-usage: "&#FF3D00שימוש: /mp parse <שחקן> <placeholder>"
+  parse-player-not-found: "&#FF3D00השחקן &f%player% &#FF3D00לא נמצא."
+  parse-result: "&#7CFC00תוצאה עבור &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00שגיאות בעת ההפעלה:"
+  error-duplicate: "&#FF5500  ● מזהה כפול: &f%id% &#FF5500(נמצא ב-&f%file1% &#FF5500ו-&f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Placeholder לא חוקי &f%id% &#FF5500ב-&f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00לא נמצאו שגיאות."

@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - 语言: 简体中文               ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00命令 &f%command% &#FF3D00未找到。"
+  no-permission: "&#FF3D00你没有权限执行此命令。"
+  reload: "&#7CFC00插件重新加载成功。"
+  config-set: "&#7CFC00占位符 &f%placeholder% &#7CFC00已更改为 &f%value%"
+  config-locked: "&#FF3D00占位符 &f%placeholder% &#FF3D00已被锁定，无法编辑。"
+  parse-usage: "&#FF3D00用法: /mp parse <玩家> <placeholder>"
+  parse-player-not-found: "&#FF3D00玩家 &f%player% &#FF3D00未找到。"
+  parse-result: "&#7CFC00&f%placeholder%&#7CFC00 的结果:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00启动时发现错误:"
+  error-duplicate: "&#FF5500  ● 重复的ID: &f%id% &#FF5500(在 &f%file1% &#FF5500和 &f%file2%&#FF5500 中找到)"
+  error-invalid: "&#FF5500  ● 无效的占位符 &f%id% &#FF5500在 &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00未发现错误。"

@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Jazyk: Čeština              ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Příkaz &f%command% &#FF3D00nenalezen."
+  no-permission: "&#FF3D00Nemáte oprávnění ke spuštění tohoto příkazu."
+  reload: "&#7CFC00Plugin byl úspěšně znovu načten."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00byl změněn na &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00je uzamčen a nelze jej upravovat."
+  parse-usage: "&#FF3D00Použití: /mp parse <hráč> <placeholder>"
+  parse-player-not-found: "&#FF3D00Hráč &f%player% &#FF3D00nenalezen."
+  parse-result: "&#7CFC00Výsledek pro &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Chyby při spuštění:"
+  error-duplicate: "&#FF5500  ● Duplicitní ID: &f%id% &#FF5500(nalezeno v &f%file1% &#FF5500a &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Neplatný placeholder &f%id% &#FF5500v &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00Žádné chyby nenalezeny."

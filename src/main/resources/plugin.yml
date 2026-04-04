@@ -1,6 +1,6 @@
 name: MyPlaceholder
 version: '${project.version}'
-main: dev.nutellim.myplaceholder.MyPlaceholder
+main: dev.nutellim.MyPlaceholders.MyPlaceholder
 api-version: '1.13'
 author: hhitt, nutellim
 description: MyPlaceholder

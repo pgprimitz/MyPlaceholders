@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - 언어: 한국어                 ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00명령어 &f%command% &#FF3D00을(를) 찾을 수 없습니다."
+  no-permission: "&#FF3D00이 명령을 실행할 권한이 없습니다."
+  reload: "&#7CFC00플러그인을 성공적으로 다시 로드했습니다."
+  config-set: "&#7CFC00플레이스홀더 &f%placeholder% &#7CFC00이(가) &f%value%(으)로 변경되었습니다."
+  config-locked: "&#FF3D00플레이스홀더 &f%placeholder% &#FF3D00이(가) 잠겨 있어 편집할 수 없습니다."
+  parse-usage: "&#FF3D00사용법: /mp parse <플레이어> <placeholder>"
+  parse-player-not-found: "&#FF3D00플레이어 &f%player% &#FF3D00을(를) 찾을 수 없습니다."
+  parse-result: "&#7CFC00&f%placeholder%&#7CFC00의 결과:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00시작 시 오류:"
+  error-duplicate: "&#FF5500  ● 중복된 ID: &f%id% &#FF5500(&f%file1% &#FF5500및 &f%file2%&#FF5500에서 발견)"
+  error-invalid: "&#FF5500  ● 잘못된 플레이스홀더 &f%id% &#FF5500(&f%file%&#FF5500): %reason%"
+  error-none: "&#7CFC00오류가 없습니다."

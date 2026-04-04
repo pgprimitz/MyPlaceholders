@@ -1,0 +1,19 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║           MyPlaceholders - Ngôn ngữ: Tiếng Việt        ║
+# ╚══════════════════════════════════════════════════════════╝
+
+prefix: "&#BEFFDD&lMyPlaceholders&r &8| "
+
+command-messages:
+  not-found: "&#FF3D00Lệnh &f%command% &#FF3D00không tìm thấy."
+  no-permission: "&#FF3D00Bạn không có quyền thực hiện lệnh này."
+  reload: "&#7CFC00Plugin đã được tải lại thành công."
+  config-set: "&#7CFC00Placeholder &f%placeholder% &#7CFC00đã được thay đổi thành &f%value%"
+  config-locked: "&#FF3D00Placeholder &f%placeholder% &#FF3D00đã bị khóa và không thể chỉnh sửa."
+  parse-usage: "&#FF3D00Cách dùng: /mp parse <người chơi> <placeholder>"
+  parse-player-not-found: "&#FF3D00Người chơi &f%player% &#FF3D00không tìm thấy."
+  parse-result: "&#7CFC00Kết quả cho &f%placeholder%&#7CFC00:"
+  error-log-header: "&#FF3D00&l[MyPlaceholders]&r &#FF3D00Lỗi khi khởi động:"
+  error-duplicate: "&#FF5500  ● ID trùng lặp: &f%id% &#FF5500(tìm thấy trong &f%file1% &#FF5500và &f%file2%&#FF5500)"
+  error-invalid: "&#FF5500  ● Placeholder không hợp lệ &f%id% &#FF5500trong &f%file%&#FF5500: %reason%"
+  error-none: "&#7CFC00Không tìm thấy lỗi nào."
