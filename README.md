@@ -1,35 +1,44 @@
-<img width="1920" height="1080" alt="MyPlaceholders_Cover" src="https://github.com/user-attachments/assets/103a854b-97cc-4149-86d0-e07578e58e4d" />
+<p align="center">
+  <img width="800" height="400" src="https://github.com/user-attachments/assets/103a854b-97cc-4149-86d0-e07578e58e4d" alt="MyPlaceholders Cover">
+</p>
 
-![Minecraft](https://img.shields.io/badge/Minecraft-1.16%20--%201.21-blue) ![Downloads](https://img.shields.io/github/downloads/pgprimitz/MyPlaceholder/total?style=flat-square) ![Stars](https://img.shields.io/github/stars/pgprimitz/MyPlaceholder?style=flat-square)
-
----
-
-# 🎯 MyPlaceholders
-
-**Tu plugin de placeholders personalizados para Minecraft.**
-
-¿Alguna vez quisiste mostrar algo en tu servidor que PlaceholderAPI no te permitía? Con MyPlaceholders puedes crear tus propios placeholders con exactamente lo que necesitas: colores brillantes, mensajes que cambian, animaciones, y mucho más.
-
-Imagina un scoreboard donde cada jugador ve su rango con colores personalizados, o un tablist donde los títulos tienen gradientes. Eso es lo que hace este plugin.
+<p align="center">
+  <img src="https://img.shields.io/badge/Minecraft-1.16%20--%201.21-blue" alt="Minecraft">
+  <img src="https://img.shields.io/github/downloads/pgprimitz/MyPlaceholder/total?style=flat-square" alt="Downloads">
+  <img src="https://img.shields.io/github/stars/pgprimitz/MyPlaceholder?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/issues/pgprimitz/MyPlaceholder?style=flat-square" alt="Issues">
+</p>
 
 ---
 
-## ✨ Características Principales
+## 🎯 What is MyPlaceholders?
 
-| Característica | ¿Qué hace? |
-|----------------|-------------|
-| 🎨 **Colores y Gradientes** | Textos con colores hexadecimales que se ven increíbles |
-| 🔀 **Mensajes Aleatorios** | Cada vez que se actualiza, muestra un mensaje diferente |
-| ⏱️ **Animaciones** | Texto que cambia con el tiempo (efectos, barras de carga) |
-| 📊 **Barras de Progreso** | Muestra visualmente el progreso de XP, nivel, etc. |
-| 🎭 **Condiciones** | Muestra algo diferente según si el jugador cumple requisitos |
-| 🔢 **Matemáticas** | Compara valores y reacciona según el resultado |
+**Your custom placeholders plugin for Minecraft.**
+
+Tired of relying only on what PlaceholderAPI offers? With MyPlaceholders you can create your own placeholders with exactly what you need: vibrant colors, rotating messages, animations, and more.
+
+Imagine a scoreboard where every player sees their rank with custom colors, or a tablist with gradient titles. That's what this plugin does.
 
 ---
 
-## 🌍 Idiomas Soportados
+## ✨ Features
 
-El plugin detecta automáticamente el idioma de tu servidor.
+| Feature | What it does |
+|---------|--------------|
+| 🎨 **Colors & Gradients** | Text with hexagonal colors that look amazing |
+| 🔀 **Random Messages** | Shows a different message every time it updates |
+| ⏱️ **Animations** | Text that changes over time (effects, loading bars) |
+| 📊 **Progress Bars** | Visually displays XP, level, or any progress |
+| 🎭 **Conditions** | Shows different text based on player requirements |
+| 🔢 **Math** | Compares values and reacts based on results |
+
+---
+
+## 🌍 Supported Languages
+
+The plugin automatically detects your server's language.
+
+<div align="center">
 
 | | | |
 |:---:|:---:|:---:|
@@ -43,57 +52,56 @@ El plugin detecta automáticamente el idioma de tu servidor.
 | 🇨🇿 Čeština | 🇷🇴 Română | 🇸🇰 Slovenčina |
 | 🇮🇱 עברית | 🇱🇹 Lietuvių | |
 
----
-
-## 🚀 Instalación
-
-### Lo que necesitas antes:
-- Un servidor con **Paper** o **Spigot** (1.16 a 1.21)
-- Tener **PlaceholderAPI** instalado
-
-### Pasos:
-
-1. **Descarga** el archivo `MyPlaceholders-X.X.X.jar`
-
-2. **Sube** el archivo a la carpeta `/plugins/` de tu servidor
-
-3. **Reinicia** tu servidor
-
-4. **¡Listo!** El plugin creará las carpetas automáticamente
+</div>
 
 ---
 
-## 📁 Estructura
+## 🚀 Installation
+
+### Requirements:
+- A server running **Paper** or **Spigot** (1.16 to 1.21)
+- **PlaceholderAPI** installed
+
+### Steps:
+
+1. **Download** the `MyPlaceholders-X.X.X.jar` file
+2. **Upload** it to your server's `/plugins/` folder
+3. **Restart** your server
+4. **Done!** The plugin will create all necessary folders automatically
+
+---
+
+## 📁 File Structure
 
 ```
 plugins/
 └── MyPlaceholders/
-    ├── config.yml          # Mensajes y configuración general
+    ├── config.yml          # General messages and settings
     └── placeholders/
-        └── example.yml     # Ejemplos para inspirarte
+        └── example.yml     # Examples to get you started
 ```
 
 ---
 
-## 📖 Aprende Más
+## 📖 Learn More
 
-Toda la documentación técnica, guías paso a paso y ejemplos avanzados están en la wiki:
+All technical documentation, step-by-step guides, and advanced examples are available in our wiki:
 
-👉 **[Documentación Oficial](https://nute-setups.gitbook.io/docs/plugins/myplaceholder)**
+👉 **[Official Documentation](https://nute-setups.gitbook.io/docs/plugins/myplaceholder)**
 
 ---
 
-## ❓ ¿Necesitas Ayuda?
+## ❓ Need Help?
 
-| Canal | Para qué |
-|-------|---------|
-| 💬 [Discord](https://discord.com/invite/ZermkrzMDg) | Soporte en vivo y preguntas |
-| 📖 [Wiki](https://nute-setups.gitbook.io/docs/plugins/myplaceholder) | Documentación completa |
-| 🐛 [GitHub Issues](https://github.com/pgprimitz/MyPlaceholder/issues) | Reportar bugs o errores |
-| 💎 [BuiltByBit](https://builtbybit.com/resources/myplaceholder-plugin-nutellim.61102/) | Versión premium con soporte prioritario |
+| Channel | For |
+|---------|-----|
+| 💬 [Discord](https://discord.com/invite/ZermkrzMDg) | Live support and questions |
+| 📖 [Wiki](https://nute-setups.gitbook.io/docs/plugins/myplaceholder) | Complete documentation |
+| 🐛 [GitHub Issues](https://github.com/pgprimitz/MyPlaceholder/issues) | Report bugs or errors |
+| 💎 [BuiltByBit](https://builtbybit.com/resources/myplaceholder-plugin-nutellim.61102/) | Premium version with priority support |
 
 ---
 
 <p align="center">
-  Desarrollado con ❤️ por <a href="https://github.com/pgprimitz">pgprimitz</a> • Distribuido por <a href="https://discord.com/invite/ZermkrzMDg">nutellim</a>
+  Made with ❤️ by <a href="https://github.com/pgprimitz">pgprimitz</a> • Distributed by <a href="https://discord.com/invite/ZermkrzMDg">nutellim</a>
 </p>
