@@ -4,9 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.16%20--%201.21-blue" alt="Minecraft">
-  <img src="https://img.shields.io/github/downloads/pgprimitz/MyPlaceholder/total?style=flat-square" alt="Downloads">
-  <img src="https://img.shields.io/github/stars/pgprimitz/MyPlaceholder?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/github/issues/pgprimitz/MyPlaceholder?style=flat-square" alt="Issues">
+  <img src="https://img.shields.io/badge/Version-1.0.2-green" alt="Version">
+  <img src="https://img.shields.io/badge/Languages-26-orange" alt="Languages">
 </p>
 
 ---
